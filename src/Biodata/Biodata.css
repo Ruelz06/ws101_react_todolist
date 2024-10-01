@@ -3,14 +3,14 @@
     max-width: 600px;
     margin: 40px auto;
     padding: 10px;
-    background-color: palevioletred;
+    background-color: rgb(255, 253, 253);
     border: 0px solid black;
-    box-shadow: 0 0 20px rgb(189, 105, 197);
+    box-shadow: 0 0 20px rgb(10, 2, 10);
     flex-wrap: wrap;
 }
 h1 {
     text-align: center;
-    background-color: rgb(189, 105, 197);
+    background-color: rgb(229, 243, 85);
     border: 10px;
     border-radius: 20px;
 }
