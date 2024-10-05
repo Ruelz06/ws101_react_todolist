@@ -5,17 +5,16 @@ import './App.css';
 // import About from './components/About/about';
 // import Contact from './components/Contact/contact';
 // import Footer from './components/Footer/footer';
-//import ToDoList from './ToDoListApp/todolist';
-import Navbar from './Navigation/Navbar';
+import ToDoList from './ToDoListApp/todolist';
+//import Navbar from './Navigation/Navbar';
 
 function App() {
   return (
-    <div className="Navigation">
-    {/*<Biodata />
-    <ToDoList /> */}
-
-    < Navbar />
-      </div>
+    <div className="ToDoListApp">
+      {/*<Biodata />
+      < Navbar />*/}
+      <ToDoList /> 
+    </div>
     ) ;
 }
 
