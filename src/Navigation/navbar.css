@@ -1,0 +1,30 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    backdrop-filter: blur(1px); 
+  }
+  
+  .navbar a {
+    font-size: 2.2rem;
+    color: rgb(2, 0, 0);
+    text-decoration: none;
+    margin: 3rem 0px 0px 0px;
+    padding: 0.3rem 0.1rem;
+    box-shadow: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  }
+  .navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 1.5px;
+    background: rgb(243, 240, 240);
+    transition: .3s;    
+  }
+  .navbar a:hover::before {
+    width: 100%;
+  }

@@ -5,13 +5,13 @@ import './App.css';
 // import About from './components/About/about';
 // import Contact from './components/Contact/contact';
 // import Footer from './components/Footer/footer';
+//import ToDoList from './todolist/todolist';
 
-import ToDoList from './todolist/todolist';
+import Navbar from './Navigation/navbar';
 function App() {
   return (
-    <div className="todolist">
-    {/*<Biodata /> */}
-    <ToDoList />
+    <div className="Navbar">
+    <Navbar />
       </div>
     ) ;
 }
